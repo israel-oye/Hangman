@@ -16,7 +16,7 @@ for index in range(len(chosen_word)):
 lives = 6
 game_on = True
 
-print("Word is "+" ".join(display)+ " long")
+print("Word is "+" ".join(display)+ " long\n")
 
 while game_on == True:
     guess = input("Guess a letter: ")
@@ -38,6 +38,6 @@ while game_on == True:
     if '_' not in display:
         game_on = False
 
-
+print("Hello world")
 
 
